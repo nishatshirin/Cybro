@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+<title>Photowoto</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style_r.css" />
+
+
+</head>
+
+<body>
+<div class="PopOpenSd">
+<div class="popForm">
+  <button class="clsBtnPp">X</button>
+  <div class="popUpTop">
+    <div>Welcome to photowoto</div>
+    <p>Anyone with a camera can create great art</p>
+  </div>
+  <div class="popFields">
+    <div class="fieldRow">
+      <div class="colLabl">Name :</div>
+      <div class="colFld-2"><input type="text" /></div>
+      <div class="colLabl">Phone No. :</div>
+      <div class="colFld-2"><input type="text" /></div>
+    </div>
+    <div class="fieldRow">
+      <div class="colLabl">Email :</div>
+      <div class="colFld-1"><input type="text" /></div>
+    </div>
+    <div class="fieldRow">
+      <div class="checkLft">Are you a Photographer <label class="checkBox"><input type="radio" name="Phtsop"/><i class="fa fa-check"></i>Yes</label><label class="checkBox"><input type="radio" name="Phtsop"/><i class="fa fa-check"></i>No</label></div>
+      <div class="checkRht"><label class="checkBox"><input type="checkbox" /><i class="fa fa-check"></i>Subscribe to our newsletter.</label></div>
+    </div>
+    <button><i class="fa fa-arrow-right"></i></button>
+  </div>
+</div>
+</div>
+<header class="lightHdr">
+   <nav>
+     <button class="tog-bar">
+       <label for="nav-on-off" />
+       <i class="fa fa-bars"></i> 
+       MENU
+     </button>
+     <input type="checkbox" id="nav-on-off"/>
+     <ul class="tog-nav">
+       <li>
+         <button id="close-bar">
+             <label for="nav-on-off" />
+             <img src="images/close-icon.png" />
+         </button>
+         <div class="logo_"><a href="#"><img src="images/logo.png" /></a></div>
+         <a id="logBxSh">Login</a>
+       </li>
+       <li><input class="nav-srch" type="text" placeholder="Search"/></li>
+       <li><a>Genres</a></li>
+       <li><a>Contribute</a></li>
+       <li><a>Account</a></li>
+       <li><a>Contest</a></li>
+       <li><a>Poll</a></li>
+       <li><a>Photos of the week</a></li>
+       <li class="last-link">
+         <div class="nav-foot">
+           <a><i class="fa fa-twitter"></i></a>
+         <a><i class="fa fa-facebook"></i></a>
+         <a><i class="fa fa-linkedin"></i></a>
+         <p>&copy; 2016 PHOTOWOTO</p>
+         </div>
+       </li>
+       </li>
+     </ul>
+     <div class="logo_"><img src="images/logo.png" /></div>
+   </nav>
+</header>
+<div class="banner">
+    <img src="images/desktop-content-pple.jpg" />
+    <div class="bannerCap">
+      <h2>Welcome to PhotoWoto !</h2>
+      <p>PhotoWoto is a microstock platform for amateur and semi-professional photographers to
+show case their work and present them for sale. </p>
+    </div>
+</div>
+
+<footer>
+ <div class="foot-wrap">
+  <div class="main-foot">
+    <div>About us</div>
+    <ul>
+      <li><a href="#">Who we are</a></li>
+      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#">Terms and condition</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </div>
+  <div class="main-foot">
+    <div>Contribute</div>
+    <ul>
+      <li><a href="#">How ot works</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">profile pageMy </a></li>
+    </ul>
+  </div>
+  <div class="main-foot">
+    <div>Contact us</div>
+    <ul>
+      <li><a>Number : 91 98200 29291</a></li>
+      <li><a>Email ID : team@photowoto@gmail.com</a></li>
+      <li><a>Join our Newsletter</a></li>
+      <li><input type="text" /></li>
+    </ul>
+  </div>
+  <div class="main-foot">
+    <a><i class="fa fa-twitter"></i></a>
+         <a><i class="fa fa-facebook"></i></a>
+         <a><i class="fa fa-linkedin"></i></a>
+         <p>&copy; 2016 PHOTOWOTO</p>
+  </div>
+ </div>
+</footer>
+<script src="js/jquery.min.js" ></script>
+<script src="js/script.js" ></script>
+<script src="js/jquery-1.9.1.min.js"></script> 
+<script src="owl-carousel/owl.carousel.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+      navigation : false,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true,
+	  autoPlay: true
+      });
+    });
+</script>
+</body>
+</html>

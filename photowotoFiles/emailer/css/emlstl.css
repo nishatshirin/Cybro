@@ -1,0 +1,353 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	box-sizing: border-box;
+	}
+body {
+    line-height: 1.4;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+	overflow-y: auto;
+    margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body.mlrs_1_bd{
+	width: 600px;
+	min-height: 750px;
+	}
+body.mlrs_2_bd{
+	width: 600px;
+	min-height: 850px;
+	}
+body.mlrs_4_bd{
+	width: 600px;
+	min-height: 720px;
+	}
+body.mlrs_5_bd{
+	width: 600px;
+	min-height: 1450px;
+	}
+.mlrs_1 .bg-box{
+	background: url(../images/eml-1-img.png);
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+.mlrs_1 .logo img,.mlrs_4 .logo img {
+    width: 120px;
+}
+.mlrs_1 .logo,.mlrs_4 .logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px 26px 10px 26px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.21);
+}
+.mlrs_1 .mailName {
+    background: url(../images/eml-1-shp-1.png);
+    height: 424px;
+    width: 282px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 80px 40px 20px 40px;
+}
+.mlrs_1 .mailName:after{
+	content: url(../images/eml-1-shp-2.png);
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 145px;
+	height: 218px;
+	}
+.mlrs_1 .mailName strong {
+    font-size: 50px;
+    display: block;
+    margin: -15px 0;
+}
+.mlrs_1 .mailMsg {
+    position: relative;
+    top: 400px;
+    margin-left: 60%;
+    font-size: 14px;
+	color: #444444;
+	width: 40%;
+}
+.mlrs_1 .mailMsg strong {
+    color: #3896d8;
+    font-size: 17px;
+}
+.mlrs_1 p.tnksMsg {
+    position: absolute;
+    bottom: 75px;
+    width: 50%;
+    left: 5%;
+    color: #3896d8;
+    font-size: 13px;
+    font-weight: bold;
+}
+.mlrs_1 p.tnksMsg strong {
+    font-size: 15px;
+    display: block;
+    color: #666666;
+}
+
+/*For mailer 2*/
+.mlrs_2 {
+    overflow: hidden;
+    text-align: center;
+	padding: 0 40px;
+	    padding-bottom: 70px;
+}
+.mlrs_2 .usrCpt {
+    font-size: 19px;
+    margin: 20px 0;
+    color: #666666;
+}
+.mlrs_2 p.tag {
+    font-size: 16px;
+    color: #007ad1;
+    font-weight: bold;
+}
+.mlrs_2 .usrCpt strong {
+    font-size: 16px;
+	display: block;
+	margin-bottom: 20px;
+}
+.mlrs_2 .usrCpt span {
+    font-size: 15px;
+}
+.mlrs_2 p.peraLnks {
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 15px 0;
+    border-bottom: 1px dashed #666666;
+}
+.mlrs_2 p.peraLnks a {
+    display: inline-block;
+    font-size: 13px;
+    color: #ffffff;
+    background: #007ad1;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.mlrs_2 .banner {
+    margin: 0 -40px;
+    text-align: center;
+}
+.mlrs_2 .banner img{
+	display: block;
+	margin: auto;
+	width: 100%;
+	}
+.mlrs_2 .logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    padding: 10px;
+    background: #ffffff;
+    width: 160px;
+}
+
+/*mailers 4*/
+.mlrs_4 .rightShps{
+	background: url(../images/eml-4-img.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 670px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: -76px -1px;
+	}
+.mlrs_4 .leftShps{
+	background: url(../images/eml-4-img-2.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 403px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+.mlrs_4 .content {
+    position: absolute;
+    bottom: 50px;
+    padding: 40px;
+    width: 70%;
+}
+.mlrs_4 .content p {
+    margin-bottom: 13px;
+    font-size: 13px;
+    color: #666666;
+}
+.mlrs_4 .content p a {
+	display: inline-block;
+    font-size: 11px;
+    color: #ffffff;
+    background: #007ad1;
+    padding: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.mlrs_4 .content strong {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #007ad1;
+    margin-bottom: 10px;
+    display: block;
+}
+.colPht > div {
+    float: left;
+    width: 33.33%;
+	overflow: hidden;
+	padding: 10px;
+}
+.colPht:after{
+	content: "";
+	clear: both;
+	display: block;
+	}
+	
+/*mlrs_5*/
+.mlrs_5{
+	text-align: center;
+	background: url(../images/eml-5-bg.png);
+	background-repeat: no-repeat;
+	padding: 0 40px;
+	padding-bottom: 70px;
+	}
+.mlrs_5 .logo {
+    width: 160px;
+    margin: auto;
+    padding: 20px;
+}
+.mlrs_5 .logo img {
+    width: 100%;
+}
+.mlrs_5 .banner{
+	position: relative;
+	margin: 25px auto;
+	}
+.mlrs_5 .banner .bnnerTxt{
+	font-size: 20px;
+	color: #ffffff;
+	position: absolute;
+	height: 30px;
+	top: 50%;
+	text-align: center;
+	left: 0;
+	right: 0;
+	}
+.mlrs_5 .banner img {
+    box-shadow: 0 2px 30px #aaaaaa;
+}
+.mlrs_5 .lnBt{
+	background:#9dd15b;;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+	}
+.peraG {
+    margin: 20px auto;
+    color: #9dd15b;
+}
+.mlrs_5 .lnBt {
+    background: #9dd15b;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 25px;
+    display: inline-block;
+    margin: 10px auto;
+}
+.prHds {
+    font-size: 17px;
+    color: #9dd15b;
+    font-weight: bold;
+    margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.mlsColBx:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mlsColBx > div {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    box-shadow: 0 2px 30px #cccccc;
+    padding: 12px;
+    font-size: 12px;
+    height: 450px;
+	line-height: 1.5;
+	position: relative;
+}
+.mlsColBx > div a {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: #ffffff;
+    background: #9dd15b;
+}
+.mlsColBx > div > img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background: #44403f;
+	padding: 15px 40px;
+	color: #dddddd;
+	font-size: 11px;
+}
+footer p a{
+	color: #dddddd;
+	text-decoration: underline;
+	}
+footer .social {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 40px 4px 10px;
+    font-size: 28px;
+}
+footer .social .fa {
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 12px;
+	color: #ffffff;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+}
+footer .social .fa-twitter {
+    background: #63cdf1;
+}
+footer .social .fa-facebook {
+    background: #507cbe
+}
+
